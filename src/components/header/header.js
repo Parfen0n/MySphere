@@ -25,7 +25,7 @@ export default class Header extends Component {
                 </nav>
                 <div className="login">
                     <a href="#/signup">Sign in</a>
-                    <button type="button">
+                    <button type="button" className="bg-green-button">
                         Sign up
                     </button>
                 </div>

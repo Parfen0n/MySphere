@@ -18,5 +18,19 @@ button {
     color: inherit;
     background-color: transparent;
     cursor: pointer;
-  }
-  
+}
+
+.bg-green-button {
+    box-sizing: border-box;
+    padding: 3px 7px 3px 7px;
+    background-color: #65c178;
+    border-radius: 5px;
+    transition: all 0.5s;
+    overflow: hidden;
+    height: 30px;
+}
+
+.bg-green-button:hover {
+    background-color: #74DE8A;
+}
+

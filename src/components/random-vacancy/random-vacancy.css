@@ -1,0 +1,64 @@
+.random-vacancy {
+    display: flex;
+    position: relative;
+    margin-bottom: 14px;
+    padding: 15px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    background-color: #fff;
+    flex-direction: row;
+    border: 1px solid #C2C0BE;
+}
+
+.random-vacancy .title {
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.random-vacancy .content {
+    flex-direction: column;
+}
+
+.random-vacancy .meta {
+    margin-bottom: 10px;
+    color: #999999;
+}
+
+.meta span {
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.meta i {
+    margin-right: 5px;
+}
+
+.random-vacancy .description {
+    display: flex;
+    color: #464646;
+    padding-right: 15px;
+    line-height: 20px;
+    max-height: 65px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.random-vacancy .company-info {
+    display: flex;
+    width: 300px;
+    border-left: 1px solid #eeeeee;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: center;
+}
+
+.company-info img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto 0 auto;
+}
+
+button {
+    margin-top: 10px;
+}
+
