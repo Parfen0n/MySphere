@@ -14,10 +14,7 @@ export default class RandomVacancy extends Component {
                     </div>
                     <div className="meta">
                         <span>
-                            Полный рабочий день
-                        </span>
-                        <i className="fas fa-circle fa-xs"></i>
-                        <span>
+                            Полный рабочий день - 
                             Можно удаленно
                         </span>
                     </div>

@@ -1,0 +1,80 @@
+.filter {
+    background-color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    float: right;
+    width: 24%;
+    padding: 15px;
+    border: 1px solid #C2C0BE;
+    box-shadow: 0px 3px 5px 0 #BCBFBD;
+}
+
+.filter .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.filter .qualification, 
+.filter .salary, .filter .location, .filter .company, .filter .categories,
+.filter .type-of-employ, .filter .addition {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.filter .categories .title {
+    margin-bottom: 10px;
+}
+
+.filter .categories input,
+.filter .addition input {
+    margin-right: 4px;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6E706F;
+}
+
+.filter .qualification select {
+    width: 200px;
+}
+
+.filter .skills {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.filter .skills button {
+    width: 50px;
+}
+
+
+.filter .salary input {
+    width: 150px;
+}
+
+.filter .salary select {
+    width: 100px;
+    margin-left: 7px;
+}
+
+.salary div {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter .type-of-employ select {
+    width: 200px;
+}
+
+
+
+
+
+
+

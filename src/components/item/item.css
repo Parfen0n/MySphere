@@ -1,0 +1,37 @@
+.item {
+    border-top: 1px solid #BCBFBD;
+    border-bottom: 1px solid #BCBFBD;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.item img {
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.item .date {
+    float: right;
+}
+
+.info .specialization {
+    font-size: 14px;
+    color: #737574;
+}
+
+.specialization .sphere {
+    margin-right: 5px;
+}
+
+.info .salary {
+    font-size: 16px;
+    font-weight: 700;
+    color: #65c178;
+}
+
+.info .addition {
+    display: flex;
+    flex-direction: column;
+}
