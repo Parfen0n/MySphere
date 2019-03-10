@@ -4,22 +4,46 @@ import Item from '../item';
 
 import './item-list.css'
 export default class ItemList extends Component {
+
+    state = {
+        term: ''
+    }
+
+    onSearchChange = (e) => {
+        const term = e.target.value;
+        this.setState({term});
+        this.props.onSearchChange(term);
+    }
+
     render() {
+
+        const { items, numberOfVacancies } = this.props;
+
+        const elements = items.map((item) => {
+            const {...itemProps} = item;
+
+            return (
+                <Item 
+                    {...itemProps}
+                />
+            )
+        })
+
         return (
             <div className="item-list">
                 <div className="search">
                     <div className="amount">
                         <span>
-                            9999 vacancies found
+                            {numberOfVacancies} vacancies found
                         </span>
                     </div>
                     <div className="input">
-                        <form>
-                            <input placeholder="Search by specialization and skills"/>
-                        </form>
+                        <input placeholder="Search by specialization and skills"
+                               onChange={this.onSearchChange}
+                               value={this.props.term}/>
                     </div>
                     <div className="list">
-                        <Item />
+                        {elements}
                     </div>
                 </div>
             </div>
