@@ -91,8 +91,8 @@ export default class App extends Component {
                               numberOfVacancies={numberVacancies}
                               onSearchChange={this.onSearchChange}/>
                     <Pagination />
-                    <Footer />
                 </div>
+                <Footer />
             </div>
         )
     }
