@@ -1,0 +1,273 @@
+.desktop {
+    width: 1920px;
+    height: 1080px;
+    background-color : rgba(224, 224, 224, 1);
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+
+.card {
+    width: 633px;
+    height: 494px;
+    background-color: white;
+    top: 265px;
+    left: 643px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    position: absolute;
+}
+
+.title {
+    width: 225px; 
+    height: 63px; 
+    font-family: PT Sans; 
+    font-size: 48px; 
+    line-height: 56.25px; 
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    top: 130px; 
+    left: 852px; 
+    position: absolute; 
+}
+
+h3 {
+    width: 86px; 
+    height: 35px; 
+    font-family: PT Sans; 
+    font-size: 36px; 
+    line-height: 42.1875px; 
+    text-align: center;
+    color : rgba(70, 70, 70, 1);
+    top: 314px;
+    left: 917px;
+    top: 49px;
+    left: 274px;
+    position: absolute;
+}
+
+h4 {
+    width: 452px;
+    height: 37px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: center;
+    color: rgba(153, 153, 153, 1);
+    top: 362px;
+    left: 735px;
+    top: 97px;
+    left: 90px;
+    position: absolute; 
+}
+
+.vk {
+    width: 48px; 
+    height: 48px;
+    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c6a5/7de2/519e6ae452c41f01eded58d7fa2b8427) no-repeat; 
+    background-size: cover;
+    top: 412px; 
+    left: 786px; 
+    top: 147px; 
+    left: 143px; 
+    position: absolute;
+}
+
+.facebook {
+    width: 48px; 
+    height: 48px; 
+    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8da4/d894/adcf45a47724d4f7ec9487b1ae68094a) no-repeat; 
+    background-size: cover;
+    top: 412px; 
+    left: 861px; 
+    top: 147px; 
+    left: 218px; 
+    position: absolute;
+}
+
+.google {
+    width: 48px; 
+    height: 48px; 
+    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d17/45e5/4eb2f6b8993e02a6dad7bcf5d9cf0bdc) no-repeat; 
+    background-size: cover;
+    top: 412px; 
+    left: 936px; 
+    top: 147px; 
+    left: 293px; 
+    position: absolute;
+}
+
+.twitter {
+    width: 48px; 
+    height: 48px; 
+    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c48c/0342/5716bcc72f67416cbeffe05046f6cf9c) no-repeat; 
+    background-size: cover; 
+    top: 412px; 
+    left: 1011px; 
+    top: 147px; 
+    left: 368px; 
+    position: absolute;
+}
+
+.github {
+    width: 48px; 
+    height: 48px; 
+    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0f19/be88/307c91d2dd0e679d194de73bf37d6abf) no-repeat; 
+    background-size: cover;
+    top: 412px; 
+    left: 1086px; 
+    top: 147px; 
+    left: 443px; 
+    position: absolute;
+}
+
+.line1 {
+    width: 189px; 
+    height: 5.684341886080802e-14px; 
+    border: 1px solid rgba(224, 224, 224, 1); 
+    top: 495px; 
+    left: 738px; 
+    top: 230px; 
+    left: 95px; 
+    position: absolute;
+}
+
+.between {
+    width: 30px; 
+    height: 27px;
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color: rgba(153, 153, 153, 1);
+    top: 480px; 
+    left: 945px; 
+    top: 215px; 
+    left: 302px; 
+    position: absolute;
+}
+
+.line2 {
+    width: 192px; 
+    height: 0px;
+    border: 1px solid rgba(224, 224, 224, 1); 
+    top: 495px; 
+    left: 992px; 
+    top: 230px; 
+    left: 349px; 
+    position: absolute;
+}
+
+input::placeholder {
+    color: #464646;
+}
+
+.email-input {
+    width: 446px; 
+    height: 37px;
+    background: #E0E0E0;
+    font-family: PT Sans; 
+    font-size: 24px;
+    line-height: 28.125px; 
+    font-weight: normal;
+    text-align: left; 
+    top: 550px;
+    left: 735px;
+    position: absolute;
+}
+
+.password-input {
+    width: 446px; 
+    height: 37px;
+    background: #E0E0E0;
+    font-family: PT Sans; 
+    font-size: 24px;
+    line-height: 28.125px; 
+    font-weight: normal; 
+    text-align: left;
+    top: 600px;
+    left: 735px;
+    position: absolute;
+}
+
+.log-button {
+    width: 446px; 
+    height: 37px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 35.125px; 
+    text-align: center;
+    font-weight: bold;
+    background-color: #5677FC;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 9px;
+    top: 651px;
+    left: 735px;
+    position: absolute;
+}
+
+.rem {
+    width: 185px; 
+    height: 33px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: center;
+    font-weight: bold;
+    top: 700px;
+    left: 869px;
+    position: absolute;
+}
+
+.reg {
+    width: 181px; 
+    height: 33px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: center;
+    font-weight: bold;
+    top: 806px; 
+    left: 869px; 
+    position: absolute; 
+}
+
+.cr-logo {
+    width: 30px; 
+    height: 30px; 
+    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8a16/e2f3/cb9c3989bb0ea75e7986707b89839961) no-repeat; 
+    background-size: cover;
+    top: 851px; 
+    left: 805px; 
+    position: absolute;
+}
+
+.footer1 {
+    width: 111px; 
+    height: 43px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: left;
+    font-weight: bold; 
+    color: rgba(0, 0, 0, 1);
+    top: 851px; 
+    left: 850px; 
+    position: absolute;
+}
+
+.footer2 {
+    width: 114px; 
+    height: 43px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: left;
+    font-weight: bold; 
+    color: rgba(0, 0, 0, 1);
+    top: 851px; 
+    left: 960px; 
+    position: absolute;
+}
