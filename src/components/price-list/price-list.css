@@ -1,0 +1,299 @@
+.price {
+    width : 1920px; 
+    height : 976px; 
+    background-color : rgba(255, 255, 255, 1);
+    top: 0px; 
+    left: 0px; 
+    position: relative;
+}
+
+.price-title {
+    width: 422px; 
+    height: 102px;
+    font-family: PT Sans;
+    font-size: 48px;
+    line-height: 56.25px;
+    font-weight: bold; 
+    text-align: CENTER; 
+    color: rgba(0, 0, 0, 1);
+    top: 3483px; 
+    left: 729px; 
+    top: 88px; 
+    left: 729px; 
+    position: absolute;
+}
+
+.price-text {
+   width: 1148px;
+    height: 162px; 
+    font-family: PT Sans; 
+    font-size: 36px; 
+    line-height: 42.1875px; 
+    text-align: CENTER; 
+    color: rgba(0, 0, 0, 1);
+    top: 3585px; 
+    left: 366px; 
+    top: 190px; 
+    left: 366px; 
+    position: absolute;
+}
+
+.region {
+    width: 181px; 
+    height: 44px;
+    font-family: PT Sans; 
+    font-size: 24px; 
+    font-weight: bold; 
+    line-height: 28.125px; 
+    text-align: CENTER; 
+    color: rgba(0, 0, 0, 1);
+    top: 3792px; 
+    left: 311px; 
+    top: 397px; 
+    left: 311px; 
+    position: absolute;
+}
+
+.cost {
+    width: 266px; 
+    height: 44px;
+    font-family: PT Sans;
+    font-size: 24px;
+    font-weight: bold; 
+    line-height: 28.125px; 
+    text-align: CENTER; 
+    color: rgba(0, 0, 0, 1);
+    top: 3792px; 
+    left: 876px; 
+    top: 397px; 
+    left: 876px; 
+    position: absolute;
+}
+
+.responses {
+    width: 306px; 
+    height: 44px;
+    font-family: PT Sans; 
+    font-size: 24px;
+    font-weight: bold; 
+    line-height: 28.125px; 
+    text-align: CENTER; 
+    color: rgba(0, 0, 0, 1);
+    top: 3792px; 
+    left: 1208px; 
+    top: 397px; 
+    left: 1208px; 
+    position: absolute;
+}
+
+.price-line1 {
+    width: 1261px; 
+    height: 39px;
+    background-color : rgba(255, 255, 255, 1);
+    top: 3792px; 
+    left: 311px; 
+    top: 470px; 
+    left: 365px;  
+    position: relative; 
+}
+
+.region1 {
+    width: 438px; 
+    height: 39px;
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+}
+
+.cost1 {
+   width: 225px; 
+   height : 39px; 
+   font-family: PT Sans; 
+   font-size: 24px; 
+   line-height: 28.125px;
+   text-align: LEFT; 
+   color: rgba(0, 0, 0, 1);
+   left: 533px; 
+   position: absolute;
+}
+
+.response1 {
+    width: 290px; 
+    height: 39px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color : rgba(0, 0, 0, 1);
+    left: 846px; 
+    position: absolute;
+}
+
+.price-line2 {
+    width: 1261px; 
+    height: 39px;
+    background-color : rgba(255, 255, 255, 1);
+    top: 3792px; 
+    left: 311px; 
+    top: 470px; 
+    left: 365px;  
+    position: relative; 
+}
+
+.region2 {
+    width: 438px; 
+    height: 39px;
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+}
+
+.cost2 {
+   width: 225px; 
+   height : 39px; 
+   font-family: PT Sans; 
+   font-size: 24px; 
+   line-height: 28.125px;
+   text-align: LEFT; 
+   color: rgba(0, 0, 0, 1);
+   left: 533px; 
+   position: absolute;
+}
+
+.response2 {
+    width: 290px; 
+    height: 39px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color : rgba(0, 0, 0, 1);
+    left: 846px; 
+    position: absolute;
+}
+
+.price-line3 {
+    width: 1261px; 
+    height: 39px;
+    background-color : rgba(255, 255, 255, 1);
+    top: 3792px; 
+    left: 311px; 
+    top: 470px; 
+    left: 365px;  
+    position: relative; 
+}
+
+.region3 {
+    width: 438px; 
+    height: 39px;
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+}
+
+.cost3 {
+   width: 225px; 
+   height : 39px; 
+   font-family: PT Sans; 
+   font-size: 24px; 
+   line-height: 28.125px;
+   text-align: LEFT; 
+   color: rgba(0, 0, 0, 1);
+   left: 533px; 
+   position: absolute;
+}
+
+.response3 {
+    width: 290px; 
+    height: 39px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color : rgba(0, 0, 0, 1);
+    left: 845px; 
+    position: absolute;
+}
+
+.price-line4 {
+    width: 1261px; 
+    height: 39px;
+    background-color : rgba(255, 255, 255, 1);
+    top: 3792px; 
+    left: 311px; 
+    top: 470px; 
+    left: 365px;  
+    position: relative; 
+}
+
+.region4 {
+    width: 438px; 
+    height: 39px;
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+}
+
+.cost4 {
+   width: 225px; 
+   height : 39px; 
+   font-family: PT Sans; 
+   font-size: 24px; 
+   line-height: 28.125px;
+   text-align: LEFT; 
+   color: rgba(0, 0, 0, 1);
+   left: 533px; 
+   position: absolute;
+}
+
+.response4 {
+    width: 290px; 
+    height: 39px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color : rgba(0, 0, 0, 1);
+    left: 846px; 
+    position: absolute;
+}
+
+.line {
+    width : 73px; 
+    height : 0px; 
+    background-color: rgba(30, 193, 245, 1); 
+    border: 1px solid rgba(30, 193, 245, 1);
+    top: 4192px; 
+    left: 365px; 
+    top: 797px; 
+    left: 365px; 
+    position: absolute;
+}
+
+.bottom-text {
+    width: 706px; 
+    height: 90px; 
+    font-family: PT Sans; 
+    font-size: 24px; 
+    line-height: 28.125px; 
+    text-align: LEFT; 
+    color: rgba(0, 0, 0, 1);
+    top: 4192px; 
+    left: 366px; 
+    top: 797px; 
+    left: 366px; 
+    position: absolute;
+}
+
