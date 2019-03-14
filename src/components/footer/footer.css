@@ -1,0 +1,287 @@
+.footer {
+   width: 1920px; 
+   height: 383px; 
+   background-color : rgba(255, 255, 255, 1);
+   overflow: hidden; 
+   top: 0px; 
+   left: 0px; 
+   position: relative; 
+}
+
+.footer-line {
+   width: 1920px; 
+   height: 0px; 
+   background-color: rgba(224, 224, 224, 1); 
+   border: 1px solid rgba(224, 224, 224, 1); 
+   position: absolute;
+}
+
+.footer-company {
+   width: 156.71408081054688px;
+   height : 39.68296432495117px;
+   font-family: PT Sans; 
+   font-size: 18px;
+   font-weight: bold; 
+   line-height: 21.09375px; 
+   text-align: CENTER; 
+   color: rgba(0, 0, 0, 1);
+   top: 54px; 
+   left: 506px; 
+   position: absolute;
+}
+
+.footer-help {
+   width: 156.71408081054688px;
+   height : 39.68296432495117px; 
+   font-family: PT Sans; 
+   font-size: 18px;
+   font-weight: bold;  
+   line-height: 21.09375px; 
+   text-align: CENTER; 
+   color: rgba(0, 0, 0, 1);
+   top: 54px; 
+   left: 644.5499877929688px; 
+   position: absolute;
+}
+
+.footer-documents {
+   width : 156.71408081054688px; 
+   height : 39.68296432495117px; 
+   font-family: PT Sans; 
+   font-size: 18px; 
+   font-weight: bold; 
+   line-height: 21.09375px; 
+   text-align: CENTER;
+   color: rgba(0, 0, 0, 1);
+   top: 54px; 
+   left: 844.989990234375px; 
+   position: absolute;
+}
+
+.footer-follow {
+   width : 307.37481689453125px; 
+   height : 39.68296432495117px;
+   font-family: PT Sans; 
+   font-size: 18px;
+   font-weight: bold;  
+   line-height: 21.09375px; 
+   text-align: CENTER; 
+   color: rgba(0, 0, 0, 1);
+   top: 54px; 
+   left: 1106.6300048828125px; 
+   position: absolute;
+}
+
+.footer-about {
+  width : 155.36888122558594px; 
+  height : 43.7185173034668px;
+  font-family: PT Sans; 
+  font-size: 18px;
+  font-weight: bold; 
+  line-height: 21.09375px; 
+  text-align: LEFT; 
+  color: rgba(153, 153, 153, 1);
+  top:93.68000030517578px; 
+  left:532.9000244140625px; 
+  position: absolute;
+}
+
+.footer-employee {
+   width : 155.36888122558594px; 
+   height : 43.7185173034668px;
+   font-family: PT Sans; 
+   font-size: 18px;
+   font-weight: bold;  
+   line-height: 21.09375px; 
+   text-align: LEFT; 
+   color: rgba(153, 153, 153, 1);
+   top: 93.68000030517578px; 
+   left: 699.030029296875px; 
+   position: absolute;
+}
+
+.footer-user {
+   width: 166.80296325683594px; 
+   height: 43.7185173034668px;
+   font-family: PT Sans; 
+   font-size: 18px; 
+   font-weight: bold; 
+   line-height: 21.09375px; 
+   text-align: LEFT; 
+   color: rgba(153, 153, 153, 1);
+   top: 93.6800537109375px; 
+   left: 865.1599731445312px; 
+   position: absolute;
+}
+
+.footer-twitter {
+   width : 43.04592514038086px; 
+   height : 43.04592514038086px; 
+   background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d62e/c649/c9bdc8f5ebe3b0096fada795b9deef67) no-repeat; 
+   background-size: cover; 
+   top:104.44000244140625px; 
+   left:1114.02001953125px; 
+   position: absolute;
+}
+
+.footer-facebook {
+   width: 43.04592514038086px; 
+   height: 43.04592514038086px; 
+   background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bf7b/a988/0432edb5e12f3db15e185b591fb664c0) no-repeat; 
+   background-size: cover;
+   top: 104.43994140625px; 
+   left: 1176.5699462890625px; 
+   position: absolute;
+}
+
+.footer-vk {
+   width: 43.04592514038086px; 
+   height: 43.04592514038086px; 
+   background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0e5e/d889/b2454f6e76783a90ce873e10f97e4c46) no-repeat; 
+   background-size: cover; 
+   top:104.43994140625px; 
+   left:1239.1300048828125px; 
+   position: absolute;
+}
+
+.footer-instagram {
+   width: 43.04592514038086px; 
+   height: 43.04592514038086px; 
+   background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/bb0e/10c8/232a8e97df11e7d9b4ba3e42227d1af5) no-repeat; 
+   background-size: cover; 
+   top:104.43994140625px; 
+   left:1301.6800537109375px; 
+   position: absolute;
+}
+
+.footer-telegram {
+   width : 43.04592514038086px; 
+   height : 43.04592514038086px; 
+   background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2e79/3ad2/2ef031392882ac5abe7094e6eb316413) no-repeat; 
+   background-size: cover;
+   top:104.43994140625px; 
+   left:1357.5px; 
+   position: absolute;
+}
+
+.footer-prices {
+   width : 147.2977752685547px; 
+   height : 43.7185173034668px;
+   font-family: PT Sans; 
+   font-size: 18px; 
+   font-weight: bold; 
+   line-height: 21.09375px; 
+   text-align: LEFT; 
+   color: rgba(153, 153, 153, 1);
+   top:137.39999389648438px; 
+   left:532.9000244140625px; 
+   position: absolute;
+}
+
+.footer-employer {
+   width: 155.36888122558594px; 
+   height: 43.7185173034668px;
+   font-family: PT Sans; 
+   font-size: 18px; 
+   font-weight: bold; 
+   line-height: 21.09375px; 
+   text-align: LEFT; 
+   color: rgba(153, 153, 153, 1);
+   top: 137.4000244140625px; 
+   left: 699.030029296875px; 
+   position: absolute;
+}
+
+.footer-terms {
+  width: 166.80296325683594px; 
+  height: 43.7185173034668px;
+  font-family: PT Sans; 
+  font-size: 18px; 
+  font-weight: bold; 
+  line-height: 21.09375px; 
+  text-align: LEFT; 
+  color: rgba(153, 153, 153, 1);
+  top: 137.4000244140625px; 
+  left: 865.1599731445312px; 
+  position: absolute;
+}
+
+.footer-news {
+   width: 155.36888122558594px; 
+   height: 43.7185173034668px; 
+   font-family: PT Sans; 
+   font-size: 18px;
+   font-weight: bold;  
+   line-height: 21.09375px; 
+   text-align: LEFT; 
+   color: rgba(153, 153, 153, 1);
+   top: 181.1199951171875px; 
+   left: 532.9000244140625px; 
+   position: absolute;
+}
+
+.footer-service {
+   width: 155.36888122558594px; 
+   height: 43.7185173034668px;
+   font-family: PT Sans; 
+   font-size: 18px;
+   font-weight: bold;  
+   line-height: 21.09375px; 
+   text-align: LEFT; 
+   color: rgba(153, 153, 153, 1);
+   top: 181.1199951171875px; 
+   left: 699.030029296875px; 
+   position: absolute;
+}
+
+.footer-partners {
+   width: 166.80296325683594px; 
+   height: 43.7185173034668px; 
+   font-family: PT Sans; 
+   font-size: 18px; 
+   font-weight: bold; 
+   line-height: 21.09375px; 
+   text-align: LEFT; 
+   color: rgba(153, 153, 153, 1);
+   top: 181.1199951171875px; 
+   left: 865.1599731445312px; 
+   position: absolute;
+}
+
+.footer-job {
+  width: 155.36888122558594px; 
+  height: 43.7185173034668px;
+  font-family: PT Sans; 
+  font-size: 18px; 
+  font-weight: bold; 
+  line-height: 21.09375px; 
+  text-align: LEFT; 
+  color: rgba(153, 153, 153, 1);
+  top: 224.83999633789062px; 
+  left: 532.9000244140625px; 
+  position: absolute;
+}
+
+.footer-cr-logo {
+   width : 43px; 
+   height : 43px; 
+   background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9e63/b713/ffdc665fc3814ea3278f6b9dba69d131) no-repeat; 
+   background-size: cover; 
+   top: 302px;
+   left: 854.4000244140625px; 
+   position: absolute;
+}
+
+.footer-cr-text {
+  width: 175.54666137695312px; 
+  height: 43.04592514038086px;
+  font-family: PT Sans; 
+  font-size: 18px; 
+  font-weight: bold; 
+  line-height: 21.09375px; 
+  text-align: LEFT; 
+  color: rgba(0, 0, 0, 1);
+  top: 312.2799987792969px; 
+  left: 913.5900268554688px; 
+  position: absolute;
+}
