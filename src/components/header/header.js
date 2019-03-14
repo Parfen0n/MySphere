@@ -10,7 +10,7 @@ export default class Header extends Component {
                     <a href="#/main">My Sphere</a>
                 </div>
                 <nav>
-                    <li>
+                    <li className="home">
                         <a href="#/main">Home</a>
                     </li>
                     <li>
