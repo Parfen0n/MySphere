@@ -1,0 +1,56 @@
+.home {
+    font-weight: bold; 
+}
+
+.jumbo {
+    width: 1920px; 
+    height: 700px; 
+    background-color: rgba(255, 255, 255, 1);
+    top: 0px; 
+    left: 0px; 
+    position: relative;
+}
+
+.jumbo-image {
+    width: 1920px; 
+    height: 700px; 
+    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/cff8/d02a/2d44219f40c35c10f9fda57706ef2c8c) no-repeat;
+    background-size: cover; 
+    top: 0px; 
+    left: 0px; 
+    top: 0px; 
+    left: 0px; 
+    position: absolute;
+}
+
+.jumbo-title {
+    width: 275px; 
+    height: 105px;
+    font-family: PT Sans; 
+    font-size: 64px; 
+    font-weight: bold;
+    line-height: 75px; 
+    text-align: CENTER; 
+    color: rgba(255, 255, 255, 1);
+    top: 249px; 
+    left: 862px; 
+    top: 249px; 
+    left: 862px; 
+    position: absolute;
+}
+
+.jumbo-text {
+    width : 657px; 
+    height : 48px; 
+    font-family: PT Sans; 
+    font-size: 36px; 
+    font-weight: bold;
+    line-height: 42.1875px; 
+    text-align: CENTER; 
+    color: rgba(255, 255, 255, 1);
+    top: 354px; 
+    left: 669px; 
+    top: 354px; 
+    left: 669px; 
+    position: absolute;
+}
