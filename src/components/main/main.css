@@ -1,0 +1,10 @@
+.dist-image {
+    background-color: white;
+}
+
+.distribution {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
