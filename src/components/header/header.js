@@ -25,7 +25,7 @@ export default class Header extends Component {
                         <a href="#/main">Companies</a>
                     </li>
                 </nav>
-                <div className="login">
+                <div className="loginn">
                     <a href="#/signup">Sign in</a>
                     <button type="button" className="bg-green-button">
                         Sign up
