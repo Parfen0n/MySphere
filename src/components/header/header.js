@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-//import { Link } from 'react-router-dom';
-//<Link to="/">My Sphere</Link>
+import { Link } from 'react-router-dom';
 
 import './header.css'
 
@@ -9,14 +8,14 @@ export default class Header extends Component {
         return (
             <header className="header">
                 <div className="logo">
-                    <a href="#/main">My Sphere</a>
+                    <Link to="/home">My Sphere</Link>
                 </div>
                 <nav>
                     <li className="home">
-                        <a href="#/main">Home</a>
+                        <Link to="/home">Home</Link>
                     </li>
                     <li>
-                        <a href="#/main">Vacansies</a>
+                        <Link to="/vacancy">Vacansies</Link>
                     </li>
                     <li>
                         <a href="#/main">Specialists</a>
@@ -26,9 +25,9 @@ export default class Header extends Component {
                     </li>
                 </nav>
                 <div className="loginn">
-                    <a href="#/signup">Sign in</a>
+                    <Link to="/login">Sign in</Link>
                     <button type="button" className="bg-green-button">
-                        Sign up
+                        <Link to="/register">Sign up</Link>
                     </button>
                 </div>
             </header>
