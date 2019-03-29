@@ -1,0 +1,8 @@
+.content {
+    max-width: 1300px;
+    box-sizing: border-box;
+    margin: 14px auto 0;
+    padding: 0 10px;
+    position: relative;
+    text-align: left;
+}
