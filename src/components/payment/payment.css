@@ -41,61 +41,55 @@
 
 .credit-card {
     width: 123px; 
-    height: 77px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/350e/81bf/54fba95ef3d15a90dd190ac28a759737) no-repeat; 
+    height: 77px;  
     background-size: cover;
     top: 2907px; 
-    left: 301px; 
-    top: 620px; 
-    left: 301px; 
+    left: 350px; 
+    top: 625px; 
+    left: 333px; 
     position: absolute;
 }
 
 .yandex {
     width: 349px; 
     height: 89px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1bce/9161/bc6f79c005428a453e2c8b45b6c663e4) no-repeat; 
     background-size: cover;
     top: 2901px; 
-    left: 453px; 
-    top: 614px; 
-    left: 453px; 
+    left: 500px; 
+    top: 640px; 
+    left: 550px; 
     position: absolute;
 }
 
 .paypal {
     width: 246px;
     height: 60px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2523/e581/6f9827ce83dd1563dd7f4b66304040f8) no-repeat;
     background-size: cover;
     top: 2916px; 
-    left: 831px; 
-    top: 629px; 
-    left: 831px; 
+    left: 900px; 
+    top: 640px; 
+    left: 890px; 
     position: absolute;
 }
 
 .webmoney {
     width: 311px; 
     height: 75px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/eb8d/d15b/2d9e6d1fa853c25c0d36958d24b8c6d5) no-repeat; 
     background-size: cover;
     top: 2908px; 
     left: 1106px; 
-    top: 621px; 
-    left: 1106px; 
+    top: 640px; 
+    left: 1190px; 
     position: absolute;
 }
 
 .cash {
     width: 118px; 
     height: 99px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ee3d/047b/4582ba88e8e6598899bf7de3a6fb21c9) no-repeat; 
-    background-size: cover; 
     top: 2896px; 
-    left: 1481px; 
-    top: 609px; 
-    left: 1481px; 
+    left: 1550px; 
+    top: 625px; 
+    left: 1510px; 
     position: absolute;
 }
 

@@ -66,7 +66,6 @@ h4 {
 .vk {
     width: 48px; 
     height: 48px;
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c6a5/7de2/519e6ae452c41f01eded58d7fa2b8427) no-repeat; 
     background-size: cover;
     top: 412px; 
     left: 786px; 
@@ -78,7 +77,6 @@ h4 {
 .facebook {
     width: 48px; 
     height: 48px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8da4/d894/adcf45a47724d4f7ec9487b1ae68094a) no-repeat; 
     background-size: cover;
     top: 412px; 
     left: 861px; 
@@ -90,7 +88,6 @@ h4 {
 .google {
     width: 48px; 
     height: 48px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d17/45e5/4eb2f6b8993e02a6dad7bcf5d9cf0bdc) no-repeat; 
     background-size: cover;
     top: 412px; 
     left: 936px; 
@@ -102,7 +99,6 @@ h4 {
 .twitter {
     width: 48px; 
     height: 48px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c48c/0342/5716bcc72f67416cbeffe05046f6cf9c) no-repeat; 
     background-size: cover; 
     top: 412px; 
     left: 1011px; 
@@ -113,8 +109,7 @@ h4 {
 
 .github {
     width: 48px; 
-    height: 48px; 
-    background: url(https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0f19/be88/307c91d2dd0e679d194de73bf37d6abf) no-repeat; 
+    height: 48px;  
     background-size: cover;
     top: 412px; 
     left: 1086px; 
@@ -246,7 +241,7 @@ input::placeholder {
     height: 37px; 
     font-family: PT Sans; 
     font-size: 24px; 
-    line-height: 35.125px; 
+    line-height: 16.125px; 
     text-align: center;
     font-weight: bold;
     background-color: #5677FC;
@@ -307,7 +302,7 @@ input::placeholder {
 }
 
 .footer1 {
-    width: 111px; 
+    width: 120px; 
     height: 43px; 
     font-family: PT Sans; 
     font-size: 24px; 
@@ -316,7 +311,7 @@ input::placeholder {
     font-weight: bold; 
     color: rgba(0, 0, 0, 1);
     top: 1000px; 
-    left: 850px; 
+    left: 840px; 
     position: absolute;
 }
 
