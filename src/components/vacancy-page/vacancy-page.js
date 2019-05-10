@@ -6,10 +6,12 @@ import RandomVacancy from '../random-vacancy';
 import ItemList from '../item-list';
 import Pagination from '../pagination';
 import Footer from '../footer';
+import { connect } from 'react-redux'; 
+import * as vacancyActions from '../../actions/vacancyActions';
 
 import './vacancy-page.css';
 
-export default class Vacancy extends Component {
+class Vacancy extends Component {
 
     state = {
         vacancies: [
@@ -74,7 +76,11 @@ export default class Vacancy extends Component {
             return item.skills.join().toLowerCase().indexOf(term.toLowerCase()) > -1  || item.title.toLowerCase().indexOf(term.toLowerCase()) > -1 ;
         })
     }
- 
+
+	componentDidMount() {
+		this.props.getVacancies();
+	}
+
     render() {
         const { vacancies, term } = this.state;
 
@@ -97,3 +103,18 @@ export default class Vacancy extends Component {
         )
     }
 }
+
+const mapStateToProps = (state) => ({
+	//vacancies: state.vacancy.vacancies,
+	//firstVacancy: state.vacancy.firstVacancy
+})
+  
+const mapDispatchToProps = {
+	getVacancies: vacancyActions.getVacancies,
+	createVacancy: vacancyActions.createVacancy
+}
+
+export default connect(
+	mapStateToProps,
+	mapDispatchToProps
+)(Vacancy);
