@@ -8,7 +8,7 @@ export default class Filter extends Component {
             <div className="filter">
                 <form>
                     <div className="categories">
-                        <label className="title">Sphere of vacancies</label>
+                        <label className="title-f">Sphere of vacancies</label>
                         <label className="label">
                             <input type="checkbox" value="backend"/>
                             Backend
@@ -75,7 +75,7 @@ export default class Filter extends Component {
                         </label>
                     </div>
                     <div className="qualification">
-                            <label className="title">
+                            <label className="title-f">
                                 Qualification
                             </label>
                             <select>
@@ -88,12 +88,12 @@ export default class Filter extends Component {
                             </select>
                     </div>
                     <div className="skills">    
-                        <label className="title">Professional skills</label>
+                        <label className="title-f">Professional skills</label>
                         <input type="text"/>
                         <button className="bg-green-button" type="button">Add</button>
                     </div>
                     <div className="salary">
-                        <label className="title">Salary</label>
+                        <label className="title-f">Salary</label>
                         <div>
                             <input type="text" pattern="^[ 0-9]+$"/>
                             <select>
@@ -105,15 +105,15 @@ export default class Filter extends Component {
                         </div>
                     </div>
                     <div className="location">
-                        <label className="title">Location</label>
+                        <label className="title-f">Location</label>
                         <input type="text"/>
                     </div>
                     <div className="company">
-                        <label className="title">Company</label>
+                        <label className="title-f">Company</label>
                         <input type="text" />
                     </div>
                     <div className="type-of-employ">
-                        <label className="title">Graphic</label>
+                        <label className="title-f">Graphic</label>
                         <select>
                             <option>Any</option>
                             <option>Full day</option>
@@ -121,7 +121,7 @@ export default class Filter extends Component {
                         </select>
                     </div>
                     <div className="addition">
-                        <label className="title">Addition</label>
+                        <label className="title-f">Addition</label>
                         <label className='label'>
                             <input type="checkbox" value="remote_work"/>
                             Remote work
