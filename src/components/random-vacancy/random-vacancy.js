@@ -7,10 +7,10 @@ export default class RandomVacancy extends Component {
         return (
             <div className="random-vacancy">
                 <div className="content">
-                    <div className="title">
-                        <h3>
+                    <div className="title-rv">
+                        <h2>
                             PHP Developer
-                        </h3>
+                        </h2>
                     </div>
                     <div className="meta">
                         <span>
@@ -30,11 +30,11 @@ export default class RandomVacancy extends Component {
                 </div>
                 <div className="company-info">
                         <img alt="Company Logo" src="https://habrastorage.org/getpro/moikrug/uploads/company/100/006/532/5/logo/medium_235cc58b1e15542a20995c4330a06528.png"/>
-                    <div className="title">
-                        <a>retailCRM</a>
+                    <div className="titlee">
+                        <a href="/company">retailCRM</a>
                     </div>
                     <div className="source">
-                        <a>
+                        <a href="/company">
                             retailcrm.es
                         </a>
                     </div>
