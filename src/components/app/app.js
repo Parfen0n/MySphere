@@ -14,11 +14,11 @@ export default class App extends Component {
     render() {
         return (
             <Router>
-
-                <Route path="/home" component={Main} />
-                <Route path="/vacancy" component={Vacancy} />
-                <Route path="/login" component={Login} />
-                <Route path="/register" component={Registration} />
+                
+                <Route path="/" exact component={Main} />
+                <Route path="/vacancy" exact component={Vacancy} />
+                <Route path="/login" exact component={Login} />
+                <Route path="/register" exact component={Registration} />
 
             </Router>
         );
