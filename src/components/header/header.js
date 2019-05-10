@@ -8,20 +8,20 @@ export default class Header extends Component {
         return (
             <header className="header">
                 <div className="logo">
-                    <Link to="/home"> My Sphere </Link>
+                    <Link to="/"> My Sphere </Link>
                 </div>
                 <nav>
                     <li className="home">
-                        <Link to="/home"> Home </Link>
+                        <Link to="/"> Home </Link>
                     </li>
                     <li>
                         <Link to="/vacancy"> Vacansies </Link>
                     </li>
                     <li>
-                        <a href="#/main"> Specialists </a>
+                        <Link to="/"> Specialists </Link>
                     </li>
                     <li>
-                        <a href="#/main"> Companies </a>
+                        <Link to="/"> Companies </Link>
                     </li>
                 </nav>
                 <div className="loginn">
