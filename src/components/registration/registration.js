@@ -47,7 +47,7 @@ export default class Registration extends Component {
                 <div className="user-a"><a href="#/user-agreement"> User agreement </a></div>
                 <div className="login"><Link to="/login"> Sign in </Link></div>
                 <div className="cr-logo"></div>
-                <div className="footer1"><Link to="/home"> My Sphere </Link></div>
+                <div className="footer1"><Link to="/"> My Sphere </Link></div>
                 <div className="footer2"> • Feedback </div>
             </div>
         )
