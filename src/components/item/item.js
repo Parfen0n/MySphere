@@ -22,7 +22,7 @@ export default class Item extends Component {
                     <img className="logo-company" alt="Company Logo" src="https://habrastorage.org/getpro/moikrug/uploads/company/100/006/507/7/logo/medium_d241551bfce977436052b7f8593b8462.png"/>
                     <span className="date">{date}</span>
                     <div className="info">
-                        <div className="title">
+                        <div className="title-rv">
                             <h2>{title}</h2>
                         </div>
                         <div className="specialization">
@@ -33,7 +33,7 @@ export default class Item extends Component {
                             <p>{skillsBorder}</p>
                         </div>
                         <div className="addition">
-                            <a className="name_company">Company: {company}</a>
+                            <span className="name_company">Company: {company}</span>
                             <span className="city">City: {city}</span>
                             <span className="graphic">Graphic: {graphic}</span>
                         </div>
