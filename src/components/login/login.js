@@ -36,7 +36,7 @@ export default class Login extends Component {
                 <div className="rem"><a href="#/remind"> Remind password </a></div>
                 <div className="reg"><Link to="/register"> Sign up </Link></div>
                 <div className="cr-logo"></div>
-                <div className="footer1"><Link to="/home"> My Sphere </Link></div>
+                <div className="footer1"><Link to="/"> My Sphere </Link></div>
                 <div className="footer2"> • Feedback </div>
             </div>
         )
